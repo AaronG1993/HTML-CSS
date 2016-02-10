@@ -1,0 +1,80 @@
+body{
+    font-family: 'Oswald', sans-serif;
+background-image: url("Resources/background.jpg") ;
+    background-position: center top;
+    background-size: 100% auto;
+    background-repeat: no-repeat ;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1b1c1c;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color:#4CAF50;
+}
+
+.title{
+    padding-bottom: 30px;
+}
+.BigTitle{
+    text-align: center;
+    padding-top: 150px;
+    font-size: 100px;
+}
+
+.AboutTitle{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size:100px;
+
+}
+.PortfolioTitle{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size:100px;
+}
+.ContactTitle{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size:100px;
+}
+.Content{
+    margin-left: 20%;
+    text-align: center;
+    width: 60%;
+    font-size: medium;
+    background-color: lightslategray;
+
+}
+
+.header2{
+    padding-left: 34%;
+}
+
+.ContactInfo{
+    padding-left: 34%;
+}

@@ -78,3 +78,6 @@ a:hover:not(.active) {
 .ContactInfo{
     padding-left: 34%;
 }
+.text{
+    color: white;
+}
